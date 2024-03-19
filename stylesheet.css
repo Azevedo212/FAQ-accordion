@@ -1,0 +1,83 @@
+body{
+    background-image: url(img/background-pattern-desktop.svg);
+    background-repeat:repeat-x;
+    background-color: rgb(238, 226, 247);
+    
+}
+
+@font-face 
+{
+    font-family: 'workSans';
+    src: url('/fontes/WorkSans-VariableFont_wght.ttf');
+}
+#background 
+{
+    width: 100%;
+    height: auto;
+}
+
+#Centro
+{
+    margin-top: 200px;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    border-radius: 10px;
+    padding: 50px;
+    padding-bottom: 10px;
+
+  
+}
+
+#titulo
+{
+    margin-bottom: 50px;
+}
+.text-tittle
+{
+    font-size: 50px;
+    font-family: workSans;
+    color: rgb(55, 39, 70);
+    margin-left: 15px;
+
+}
+
+.textBold 
+{
+    font-family: workSans;
+    font-size: 20px;
+    color: rgb(55, 39, 70);
+    margin-bottom: 60px;
+
+}
+
+.textGrey
+{
+    color: rgb(163, 162, 162);
+    font-family: workSans;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.icon-plus
+{ 
+   float: right;
+
+}
+
+.icon-minus
+{
+    float: right;
+}
+
+#Centro hr
+{
+    margin-bottom: 30px;
+    background-color: #c7c5c5;
+    width: 100%;
+    height: 1px;
+    border: transparent;
+   
+ 
+}
